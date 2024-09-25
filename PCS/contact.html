@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC>
+<!-- la page dans son intégralité -->
+<html>
+<!-- contenur de la page html non visible  -->
+    <head>
+        <meta charset="utf-8">
+        <title>PCS PLOMBERIE 06</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            form {
+                background-color: #f2f2f2;
+                padding: 20px;
+                border-radius: 5px;
+              }
+              
+              label {
+                display: block;
+                margin-bottom: 5px;
+              }
+              
+              input[type="text"],
+              input[type="email"],
+              textarea {
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                width: 100%;
+              }
+              
+              button[type="submit"] {
+                background-color: #A2B8AB;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+              }
+        </style>
+    </head>
+
+<!-- contenu visible de la page html -->
+
+    <body>
+        <div id="divg">
+<!-- Entete de ma page web emplacement du titre du logo et de la barre de recherche -->
+        <div id = "div1" >
+            <div id="sous-div1">
+                <img id="image_logo" src="image/logo.jpg" alt="">
+            </div>
+            <div id="sous_div2">
+                <a id="linkb" href="index.html"><button id="button"> ACCEUIL</button></a>
+                <a id="linkb" href="service.html"><button id="button"> SERVICE</button></a>
+                <a id="linkb" href="tarif.html"><button id="button"> TARIF</button></a>
+                <a id="linkb" href="devis.html"><button id="button"> DEVIS</button></a>
+                <a id="linkb" href="contact.html"><button id="button"> CONTACT</button></a>
+                
+                   
+            </div>
+            <div id="sous_div3">
+
+            </div>
+
+        </div>
+            <div id="div2">                
+            <h1 id="pcs">PISCINE | CHAUFFAGE | SANITAIRE | CLIMATISATION</h1>
+            
+            <div id="divc">
+
+                <h2 id="pa"><br>
+
+
+                  
+                    ENTREPRISE : PCS<br><br><br>
+
+                    <!-- <style type="text/css" scoped>a.infogreffe:visited{color:black;text-decoration:none}</style> 
+                    <div style="width:300px; font: 13px Helvetica,Arial,sans-serif;"> <a class="infogreffe" href="https://www.infogreffe.fr/entreprise-societe/884420282.html" style="text-decoration:none;color:black;"> 
+                      <img src="http://www.infogreffe.fr/societes-v4-theme/images/infogreffe/logos/logo-source.png" style="float:left; margin-right:20px;border:0;"/> 
+                      <strong style="display:block; color: black;">PCS</strong> <span style="display:block; color: black">884 420 282 R.C.S. GRASSE</span> 
+                      <span style="display:block; color: black">Greffe du Tribunal de Commerce de GRASSE</span> </a> </div><br><br><br>
+ -->
+
+                    <!-- SIRET : <a href="https://www.infogreffe.fr/entreprise-societe/884420282.html">88442028200011</a> <br><br>
+                    MAIL : <a href="mailto:taquoi44@gmail.com">taquoi44@gmail.com</a> <br><br>
+                    NUMÉRO : <a href="tel:07%2060%2058%2050%2064">0760585064</a> <br><br> -->
+
+                </h2>
+
+
+            </div>
+            <form method="POST" action="submit-form.php">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" required>
+              
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+              
+                <button type="submit">Envoyer</button>
+              </form>
+        </div>
+        <footer>
+          <p>PCS | PLOMBERIE | 06 &copy; 2023</p>
+      </footer>
+        </div>
+
+
+
+        <script>
+            var nomInput = document.getElementById('nom');
+            var nomError = document.getElementById('nom-error');
+          
+            nomInput.addEventListener('blur', function() {
+              if (nomInput.value.trim() === '') {
+                nomError.style.display = 'block';
+              } else {
+                nomError.style.display = 'none';
+              }
+            });
+          </script>
+    </body>
+</html>

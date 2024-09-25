@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC>
+<!-- la page dans son intégralité -->
+<html>
+<!-- contenur de la page html non visible  -->
+    <head>
+        <meta charset="utf-8">
+        <title>PCS PLOMBERIE 06</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            form {
+                display: flex;
+                flex-direction: column;
+                max-width: 600px;
+                margin: 0 auto;
+              }
+              
+              label, input, textarea {
+                margin-bottom: 10px;
+              }
+              
+              label {
+                font-weight: bold;
+              }
+              
+              input, textarea {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+              }
+              
+              input[type="submit"] {
+                background-color: #A2B8AB;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              
+              input[type="submit"]:hover {
+                background-color: #45a049;
+              }
+              
+        </style>
+    </head>
+
+<!-- contenu visible de la page html -->
+
+    <body>
+        <div id="divg">
+<!-- Entete de ma page web emplacement du titre du logo et de la barre de recherche -->
+        <div id = "div1" >
+            <div id="sous-div1">
+                <img id="image_logo" src="image/logo.jpg" alt="">
+            </div>
+            <div id="sous_div2">
+                <a id="linkb" href="index.html"><button id="button"> ACCEUIL</button></a>
+                <a id="linkb" href="service.html"><button id="button"> SERVICE</button></a>
+                <a id="linkb" href="tarif.html"><button id="button"> TARIF</button></a>
+                <a id="linkb" href="devis.html"><button id="button"> DEVIS</button></a>
+                <a id="linkb" href="contact.html"><button id="button"> CONTACT</button></a>
+                
+                   
+            </div>
+            <div id="sous_div3">
+
+            </div>
+
+        </div>
+            <div id="div2">
+                <h1 id="pcs">PISCINE | CHAUFFAGE | SANITAIRE | CLIMATISATION</h1>
+
+                <form action="submit-form.php" method="POST">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                  
+                    <label for="email">Adresse email :</label>
+                    <input type="email" id="email" name="email" required>
+                  
+                    <label for="telephone">Numéro de téléphone :</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+                  
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" id="adresse" name="adresse" required>
+                  
+                    <label for="ville">Ville :</label>
+                    <input type="text" id="ville" name="ville" required>
+                  
+                    <label for="codepostal">Code postal :</label>
+                    <input type="text" id="codepostal" name="codepostal" required>
+                  
+                    <label for="description">Description du travail à effectuer :</label>
+                    <textarea id="description" name="description" rows="5" required></textarea>
+                  
+                    <label for="date">Date de début souhaitée :</label>
+                    <input type="date" id="date" name="date" required>
+                  
+                    <input type="submit" value="Envoyer">
+                  </form>
+                  
+
+            </div>
+            <footer>
+              <p>PCS | PLOMBERIE | 06 &copy; 2023</p>
+          </footer>
+          </div>
+    </body>
+</html>

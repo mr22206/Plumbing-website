@@ -1,0 +1,324 @@
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Sélecteur de la barre de défilement */
+::-webkit-scrollbar {
+  width: 12px; /* largeur de la barre */
+}
+
+/* Sélecteur de la poignée de la barre de défilement */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* couleur de fond de la poignée */
+  border-radius: 6px; /* bord arrondi de la poignée */
+}
+
+/* Sélecteur de la piste de la barre de défilement */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* couleur de fond de la piste */
+}
+
+
+
+
+body {
+  overflow: scroll;
+
+  background-image: url(image/bg.jpg);
+  background-position: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+#divg{
+    height: 100%;
+}
+
+#div1{
+    padding: 0%;
+    margin: auto;
+    display : grid;
+	  grid-template-columns:20% 60% 20%;
+    height: 15%;
+}
+#image_logo{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+
+    
+}
+
+#button{
+    margin-top: 4%;
+    padding: auto;
+    width: 19%;
+    height: 35%;
+    font-weight: bolder;
+    font-size: 2em;
+    border-radius: 5%;
+    background-color: #94BBAB;
+    color: white;
+
+}
+
+
+#sous_div2{
+
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;    
+}
+
+
+
+
+h1{
+  text-align: center;
+
+}
+
+
+#sous_div_index{
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+#tda,#tdb{
+  background-color: #94BBAB;
+  width: 1%;
+  font-weight: bolder;
+  font-size:xx-large;
+  width: 20%;
+  height: 5rem;
+  border-radius: 45%;
+  text-align: center;
+
+}
+
+#tdc{
+background-color:transparent;
+opacity: 0.8;
+width: 1%;
+font-weight: bolder;
+font-size:xx-large;
+height: 2rem;
+
+}
+
+
+#center{
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+
+#tablet{
+  margin: auto;
+  padding: auto;
+}
+
+
+footer {
+  /* background-color: #333; */
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0%;
+
+}
+
+
+
+
+
+@media screen and (min-width: 1625px) {
+
+
+  #div2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    backdrop-filter: blur(10px);
+
+}
+
+
+  }
+
+
+
+
+@media screen and (max-width: 1625px) {
+  /* #divg{
+    background-image: url(image/final.jpg);
+
+    } */
+
+    #button {
+      font-size: 1em;
+      padding: 5px 10px;
+      height: auto;
+    }
+    div#div2 {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+
+
+    #tda,#tdb{
+      background-color: #94BBAB;
+      width: 1%;
+      font-weight: bolder;
+      font-size:16px;
+      width: 20%;
+      height: 5rem;
+      border-radius: 45%;
+  
+  }
+  
+  
+
+
+  }
+
+  @media screen and (max-width: 1100px) {
+    /* #divg{
+      background-image: url(image/final.jpg);
+      }
+     */
+      #button {
+        font-size: 0.9em;
+        padding: 5px 10px;
+        height: auto;
+    
+      }
+
+      #linkb {
+        margin: 10px 0;
+        text-align: center;
+      }
+
+
+      #tda,#tdb{
+        background-color: #94BBAB;
+        width: 1%;
+        font-weight: bolder;
+        font-size:14px;
+        width: 20%;
+        height: 4rem;
+        border-radius: 45%;
+    
+    }
+  }
+
+
+  
+
+  @media screen and (max-width: 900px) {
+    div#div2{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: justify;
+      backdrop-filter: blur(10px);
+  
+  }
+  
+/* 
+    #divg{
+      background-image: url(image/final.jpg);
+      } */
+    #div1 {
+      grid-template-columns: 100%;
+      height: auto;
+    }
+
+    #button {
+      width: 25%;
+      font-size: large;
+      height: auto;
+      width: 80%;
+    
+
+    }
+  
+  
+    #pa ,#center{
+      font-weight: bold;
+      font-size: 18px;
+    }
+  
+    #pcs{
+      color: black;
+      font-weight: bold;
+      font-size: 19px;
+    }
+
+
+    #linkb {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+
+    #tda,#tdb{
+      background-color: #94BBAB;
+      width: 1%;
+      font-weight: bolder;
+      font-size:12px;
+      width: 20%;
+      height: 3rem;
+      border-radius: 45%;
+  
+  }
+
+  #tdc{
+    display: none;
+  }
+
+  }
+  
+
+/* styles pour les écrans plus petits que 500 pixels de large */
+@media screen and (max-width: 500px) {
+  /* #divg{
+    background-image: url(image/final.jpg);
+    
+    } */
+
+  #pa, #center {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  #pcs{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+
+  #tda,#tdb{
+    background-color: #94BBAB;
+    width: 1%;
+    font-weight: bolder;
+    font-size:10px;
+    width: 20%;
+    height: 0.5rem;
+    border-radius: 45%;
+
+}
+}
