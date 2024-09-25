@@ -87,7 +87,7 @@ Les coordonnées de l'entreprise sont accessibles à tout moment pour faciliter 
 
 ## Contact
 Si vous avez des questions ou souhaitez collaborer sur le projet, n'hésitez pas à nous contacter :
-- **Téléphone** : 0661388374
+- **Téléphone** : 06613#####
 - **E-mail** : pcsplomberie06@gmail.com
 
 ---
