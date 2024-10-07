@@ -30,7 +30,7 @@ Notre équipe de plombiers professionnels est à votre service pour garantir un 
 ### 1. **Présentation des services**
 Le site présente de manière claire et concise les différents services proposés par l'entreprise, allant des installations sanitaires aux systèmes de chauffage et climatisation.
 
-![image](https://github.com/user-attachments/assets/39d5d861-e44a-4e74-b664-fda0e988c12f)
+![image](https://github.com/user-attachments/assets/68b3d8e5-047b-4251-8708-959c8eff4652)
 
 ### 2. **Tarifs indicatifs**
 Une section dédiée aux tarifs est incluse, permettant aux clients d'avoir une idée générale des coûts pour différents types d'interventions.
