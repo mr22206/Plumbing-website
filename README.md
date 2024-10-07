@@ -29,19 +29,23 @@ Notre équipe de plombiers professionnels est à votre service pour garantir un 
 
 ### 1. **Présentation des services**
 Le site présente de manière claire et concise les différents services proposés par l'entreprise, allant des installations sanitaires aux systèmes de chauffage et climatisation.
-- 💡 **Illustration suggérée** : Un collage de photos représentant des travaux de plomberie, chauffage, et climatisation.
+
+![image](https://github.com/user-attachments/assets/39d5d861-e44a-4e74-b664-fda0e988c12f)
 
 ### 2. **Tarifs indicatifs**
 Une section dédiée aux tarifs est incluse, permettant aux clients d'avoir une idée générale des coûts pour différents types d'interventions.
-- 💡 **Illustration suggérée** : Un tableau clair avec des exemples de tarifs (par exemple : installation de climatisation, pose de sanitaires, etc.).
+
+![image](https://github.com/user-attachments/assets/d970b220-d9df-4c32-af31-1661a8ac3397)
 
 ### 3. **Devis en ligne**
 Les clients peuvent remplir un formulaire de demande de devis en ligne, en spécifiant les détails du travail souhaité et la date de début.
-- 💡 **Illustration suggérée** : Capture d'écran du formulaire de devis avec les champs à remplir (nom, adresse, description des travaux).
+
+![image](https://github.com/user-attachments/assets/5c8c2929-1e39-48ee-bec2-cf9539a13f70)
 
 ### 4. **Contact simplifié**
 Les coordonnées de l'entreprise sont accessibles à tout moment pour faciliter la communication. Les clients peuvent nous contacter par téléphone ou via un formulaire de contact intégré.
-- 💡 **Illustration suggérée** : Une image de la page de contact avec un focus sur les informations importantes (téléphone, email, etc.).
+
+![image](https://github.com/user-attachments/assets/738a5acf-9d8a-4794-b5d1-6c441c4d9e56)
 
 ---
 
