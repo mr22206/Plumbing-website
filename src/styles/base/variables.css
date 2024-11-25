@@ -1,0 +1,32 @@
+:root {
+  /* Couleurs principales basées sur la carte */
+  --primary-color: #8BA89B;  /* Vert sauge */
+  --secondary-color: #556B61; /* Vert foncé */
+  --accent-color: #ffffff;    /* Blanc */
+  --text-color: #333333;
+  --background-color: #F5F5F5;
+  --white: #ffffff;
+
+  /* Couleurs additionnelles */
+  --light-sage: #D1DCD6;     /* Version claire du vert sauge */
+  --dark-sage: #4A5D54;      /* Version foncée du vert sauge */
+  --light-gray: #EFEFEF;
+  --border-color: #E0E0E0;
+
+  /* Espacement */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Breakpoints */
+  --mobile: 768px;
+  --tablet: 1024px;
+  --desktop: 1200px;
+
+  /* Ombres */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+  --shadow-lg: 0 6px 12px rgba(0,0,0,0.1);
+} 

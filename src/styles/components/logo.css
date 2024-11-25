@@ -1,0 +1,61 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  text-decoration: none;
+  color: var(--white);
+}
+
+.logo-circle {
+  width: 45px;
+  height: 45px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.logo-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.company-service {
+  font-size: 0.9rem;
+  color: var(--light-sage);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .logo-circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo-text {
+    font-size: 1rem;
+  }
+
+  .company-name {
+    font-size: 1rem;
+  }
+
+  .company-service {
+    font-size: 0.8rem;
+  }
+} 

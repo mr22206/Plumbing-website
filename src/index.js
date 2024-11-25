@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// Import des styles de base
+import './styles/base/reset.css';
+import './styles/base/variables.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

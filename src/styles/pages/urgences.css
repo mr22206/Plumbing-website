@@ -1,0 +1,36 @@
+.urgence-info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.urgence-info h1 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.urgence-info h2 {
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-md);
+}
+
+.urgence-info h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: var(--spacing-md) 0;
+}
+
+.urgence-info ul {
+  list-style: disc;
+  margin-left: var(--spacing-lg);
+  margin-top: var(--spacing-md);
+}
+
+.urgence-info li {
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-color);
+} 
