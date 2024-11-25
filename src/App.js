@@ -9,8 +9,10 @@ import Contact from './pages/Contact';
 import Urgences from './pages/Urgences';
 
 function App() {
+  const basename = process.env.PUBLIC_URL || '';
+
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={basename}>
       <div className="App">
         <Navbar />
         <Routes>
