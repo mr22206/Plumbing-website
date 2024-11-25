@@ -10,7 +10,7 @@ import Urgences from './pages/Urgences';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         <Routes>
