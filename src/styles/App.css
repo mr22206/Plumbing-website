@@ -1,3 +1,9 @@
+.app-container {
+  min-height: 100vh;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+} 
+
 .App {
   text-align: center;
 }
@@ -36,3 +42,4 @@
     transform: rotate(360deg);
   }
 }
+

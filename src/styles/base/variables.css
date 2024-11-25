@@ -29,4 +29,39 @@
   --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
   --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
   --shadow-lg: 0 6px 12px rgba(0,0,0,0.1);
+
+  /* Variables pour le background global */
+  --bg-gradient-1: rgba(139, 168, 155, 0.03);
+  --bg-gradient-2: rgba(85, 107, 97, 0.05);
+  
+  /* Nouveaux motifs géométriques */
+  --pattern-circles: radial-gradient(
+    circle at center,
+    var(--primary-color) 2px,
+    transparent 2px
+  );
+  
+  --pattern-lines: linear-gradient(
+    45deg,
+    transparent 48%,
+    var(--secondary-color) 48%,
+    var(--secondary-color) 52%,
+    transparent 52%
+  );
+  
+  --pattern-dots: radial-gradient(
+    var(--primary-color) 1px,
+    transparent 1px
+  );
+
+  /* Garder le pattern existant */
+  --bg-pattern: repeating-linear-gradient(
+    45deg,
+    var(--primary-color) 0,
+    var(--primary-color) 1px,
+    transparent 0,
+    transparent 50%
+  );
+  --bg-pattern-size: 30px 30px;
 } 
+

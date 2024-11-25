@@ -1,0 +1,58 @@
+/* Reset et styles de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: 
+    var(--pattern-circles) 0 0 / 50px 50px,
+    var(--pattern-lines) 0 0 / 100px 100px,
+    var(--pattern-dots) 0 0 / 20px 20px,
+    linear-gradient(
+      135deg,
+      var(--bg-gradient-1) 0%,
+      var(--bg-gradient-2) 100%
+    );
+  background-blend-mode: soft-light;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  animation: backgroundShift 120s linear infinite;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+} 
+
+/* Animation subtile pour le fond */
+@keyframes backgroundShift {
+  0% {
+    background-position: 
+      0 0,
+      0 0,
+      0 0,
+      0 0;
+  }
+  100% {
+    background-position: 
+      50px 50px,
+      100px 100px,
+      20px 20px,
+      0 0;
+  }
+}
+
+/* Effet de glassmorphisme pour les cartes */
+.service-card,
+.contact-form,
+.devis-form,
+.urgence-info {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+} 

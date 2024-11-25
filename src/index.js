@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 // Import des styles de base
 import './styles/base/reset.css';
 import './styles/base/variables.css';
+import './styles/base/global.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

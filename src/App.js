@@ -7,6 +7,9 @@ import Services from './pages/Services';
 import Devis from './pages/Devis';
 import Contact from './pages/Contact';
 import Urgences from './pages/Urgences';
+import './styles/base/variables.css';
+import './styles/base/global.css';
+import './styles/App.css';
 
 function App() {
   return (
