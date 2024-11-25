@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import Home from './pages/Home';
@@ -9,10 +9,8 @@ import Contact from './pages/Contact';
 import Urgences from './pages/Urgences';
 
 function App() {
-  const basename = process.env.PUBLIC_URL || '';
-
   return (
-    <Router basename={basename}>
+    <HashRouter>
       <div className="App">
         <Navbar />
         <Routes>
@@ -24,7 +22,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
