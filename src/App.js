@@ -13,7 +13,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         <Routes>
