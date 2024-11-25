@@ -15,7 +15,10 @@ const Home = () => {
       </section>
 
       <section className="services-section">
-        <h2>Nos Services</h2>
+        <div className="services-header">
+          <h1>Nos Services</h1>
+          <p>Des solutions professionnelles pour tous vos besoins en plomberie</p>
+        </div>
         <div className="services-grid">
           <div className="service-card">
             <h3>Plomberie Générale</h3>
