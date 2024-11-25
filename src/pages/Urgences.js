@@ -3,8 +3,11 @@ import '../styles/pages/urgences.css';
 
 const Urgences = () => {
   return (
-    <div>
-      <h1>Services d'Urgence</h1>
+    <div className="urgences-page">
+      <div className="urgences-header">
+        <h1>Services d'Urgence</h1>
+        <p>Intervention rapide 24/7 pour tous vos problèmes de plomberie</p>
+      </div>
       <div className="urgence-info">
         <h2>24/7 Disponible</h2>
         <p>Pour toutes urgences, appelez-nous au :</p>

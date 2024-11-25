@@ -1,10 +1,23 @@
 .contact-page {
-  padding: var(--spacing-lg);
+  padding: var(--spacing-xl) var(--spacing-md);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .contact-header {
   text-align: center;
   margin-bottom: var(--spacing-xl);
+}
+
+.contact-header h1 {
+  color: var(--primary-color);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: var(--spacing-md);
+}
+
+.contact-header p {
+  color: var(--text-color);
+  font-size: 1.2rem;
 }
 
 .contact-container {
@@ -66,6 +79,20 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 1rem;
+  background-color: var(--white);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(139, 168, 155, 0.2);
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+  border-color: var(--primary-color);
 }
 
 .form-group textarea {

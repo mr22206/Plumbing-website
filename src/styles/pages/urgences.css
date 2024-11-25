@@ -1,8 +1,28 @@
-.urgence-info {
+.urgences-page {
+  padding: var(--spacing-xl) var(--spacing-md);
   max-width: 800px;
   margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.urgences-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.urgences-header h1 {
+  color: var(--primary-color);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: var(--spacing-md);
+}
+
+.urgences-header p {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+
+.urgence-info {
   background: var(--white);
+  padding: var(--spacing-xl) var(--spacing-md);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
