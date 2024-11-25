@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Plumbing-website/static/css/main.37127bb4.css",
-    "main.js": "/Plumbing-website/static/js/main.d263b333.js",
-    "static/js/453.6a87d921.chunk.js": "/Plumbing-website/static/js/453.6a87d921.chunk.js",
+    "main.js": "/Plumbing-website/static/js/main.b647ca39.js",
+    "static/js/453.79855273.chunk.js": "/Plumbing-website/static/js/453.79855273.chunk.js",
     "index.html": "/Plumbing-website/index.html",
     "main.37127bb4.css.map": "/Plumbing-website/static/css/main.37127bb4.css.map",
-    "main.d263b333.js.map": "/Plumbing-website/static/js/main.d263b333.js.map",
-    "453.6a87d921.chunk.js.map": "/Plumbing-website/static/js/453.6a87d921.chunk.js.map"
+    "main.b647ca39.js.map": "/Plumbing-website/static/js/main.b647ca39.js.map",
+    "453.79855273.chunk.js.map": "/Plumbing-website/static/js/453.79855273.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37127bb4.css",
-    "static/js/main.d263b333.js"
+    "static/js/main.b647ca39.js"
   ]
 }
