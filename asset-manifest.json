@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pcs-plomberie/static/css/main.d37d3828.css",
-    "main.js": "/pcs-plomberie/static/js/main.7f549012.js",
+    "main.js": "/pcs-plomberie/static/js/main.1141c0a6.js",
     "static/js/453.6a87d921.chunk.js": "/pcs-plomberie/static/js/453.6a87d921.chunk.js",
     "index.html": "/pcs-plomberie/index.html",
     "main.d37d3828.css.map": "/pcs-plomberie/static/css/main.d37d3828.css.map",
-    "main.7f549012.js.map": "/pcs-plomberie/static/js/main.7f549012.js.map",
+    "main.1141c0a6.js.map": "/pcs-plomberie/static/js/main.1141c0a6.js.map",
     "453.6a87d921.chunk.js.map": "/pcs-plomberie/static/js/453.6a87d921.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d37d3828.css",
-    "static/js/main.7f549012.js"
+    "static/js/main.1141c0a6.js"
   ]
 }
